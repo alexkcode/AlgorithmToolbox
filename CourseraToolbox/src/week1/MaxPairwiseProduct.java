@@ -5,7 +5,7 @@ public class MaxPairwiseProduct {
 //    changed types of methods and input to account for larger numbers
 //    as indicated in exercise
 
-    private static long getMaxPairwiseProduct(long[] numbers) {
+    static long getMaxPairwiseProduct(long[] numbers) {
 //        naive solution
         long result = 0;
         int n = numbers.length;
@@ -19,7 +19,7 @@ public class MaxPairwiseProduct {
         return result;
     }
 
-    private static long getMaxPairwiseProductFast(long[] numbers) {
+    static long getMaxPairwiseProductFast(long[] numbers) {
 //        faster solution
         int n = numbers.length;
 
