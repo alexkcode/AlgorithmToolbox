@@ -1,3 +1,5 @@
+package CourseraJavaToolbox.week1;
+
 import java.util.*;
 import java.io.*;
 
@@ -5,21 +7,21 @@ public class MaxPairwiseProduct {
 //    changed types of methods and input to account for larger numbers
 //    as indicated in exercise
 
-    static long getMaxPairwiseProduct(long[] numbers) {
+    public static long getMaxPairwiseProduct(ArrayList<Integer> numbers) {
 //        naive solution
         long result = 0;
         int n = numbers.length;
         for (int i = 0; i < n; ++i) {
             for (int j = i + 1; j < n; ++j) {
-                if (numbers[i] * numbers[j] > result) {
-                    result = numbers[i] * numbers[j];
+                if (numbers.get(i) * numbers.get(j) > result) {
+                    result = numbers.get(i) * numbers.get(j);
                 }
             }
         }
         return result;
     }
 
-    static long getMaxPairwiseProductFast(long[] numbers) {
+    public static long getMaxPairwiseProductFast(ArrayList<Integer> numbers) {
 //        faster solution
         int n = numbers.length;
 
