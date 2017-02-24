@@ -10,7 +10,7 @@ public class MaxPairwiseProduct {
     public static long getMaxPairwiseProduct(ArrayList<Integer> numbers) {
 //        naive solution
         long result = 0;
-        int n = numbers.length;
+        int n = numbers.size();
         for (int i = 0; i < n; ++i) {
             for (int j = i + 1; j < n; ++j) {
                 if (numbers.get(i) * numbers.get(j) > result) {
@@ -23,27 +23,27 @@ public class MaxPairwiseProduct {
 
     public static long getMaxPairwiseProductFast(ArrayList<Integer> numbers) {
 //        faster solution
-        int n = numbers.length;
+        int n = numbers.size();
 
         int max_index1 = -1;
         for (int i = 0; i < n; ++i)
-            if ((max_index1 == -1) || (numbers[i] > numbers[max_index1]))
+            if ((max_index1 == -1) || (numbers.get(i) > numbers.get(max_index1)))
                 max_index1 = i;
 
         int max_index2 = -1;
         for (int j = 0; j < n; ++j)
-            if ((numbers[j] != numbers[max_index1]) && ((max_index2 == -1) || (numbers[j] > numbers[max_index2])))
+            if ((numbers.get(j) != numbers.get(max_index1)) && ((max_index2 == -1) || (numbers.get(j) > numbers.get(max_index2))))
                 max_index2 = j;
 
-        return numbers[max_index1] * numbers[max_index2];
+        return numbers.get(max_index1) * numbers.get(max_index2);
     }
 
     public static void main(String[] args) {
         FastScanner scanner = new FastScanner(System.in);
         int n = scanner.nextInt();
-        long[] numbers = new long[n];
+        ArrayList<Integer> numbers = new ArrayList<Integer>();
         for (int i = 0; i < n; i++) {
-            numbers[i] = scanner.nextInt();
+            numbers.set(i, scanner.nextInt());
         }
         System.out.println(getMaxPairwiseProduct(numbers));
         System.out.println(getMaxPairwiseProductFast(numbers));
