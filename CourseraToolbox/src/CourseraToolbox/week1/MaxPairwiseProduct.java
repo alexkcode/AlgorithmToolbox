@@ -1,4 +1,4 @@
-package CourseraJavaToolbox.week1;
+package CourseraToolbox.week1;
 
 import java.util.*;
 import java.io.*;
@@ -11,6 +11,8 @@ public class MaxPairwiseProduct {
 //        naive solution
         long result = 0;
         int n = numbers.size();
+        int max1 = 0;
+        int max2 = 0;
         for (int i = 0; i < n; ++i) {
             for (int j = i + 1; j < n; ++j) {
                 if ((long)numbers.get(i) * numbers.get(j) > result) {
@@ -27,12 +29,12 @@ public class MaxPairwiseProduct {
 
         int max_index1 = -1;
         for (int i = 0; i < n; ++i)
-            if ((max_index1 == -1) || ((long) numbers.get(i) > numbers.get(max_index1)))
+            if ((max_index1 == -1) || (numbers.get(i) > numbers.get(max_index1)))
                 max_index1 = i;
 
         int max_index2 = -1;
         for (int j = 0; j < n; ++j)
-            if (((long) numbers.get(j) != numbers.get(max_index1)) && ((max_index2 == -1) || (numbers.get(j) > numbers.get(max_index2))))
+            if ((j != max_index1) && ((max_index2 == -1) || (numbers.get(j) > numbers.get(max_index2))))
                 max_index2 = j;
 
         return (long) numbers.get(max_index1) * numbers.get(max_index2);
@@ -45,7 +47,7 @@ public class MaxPairwiseProduct {
         for (int i = 0; i < n; ++i) {
             numbers.add(i, scanner.nextInt());
         }
-        System.out.println(getMaxPairwiseProduct(numbers));
+//        System.out.println(getMaxPairwiseProduct(numbers));
         System.out.println(getMaxPairwiseProductFast(numbers));
     }
 

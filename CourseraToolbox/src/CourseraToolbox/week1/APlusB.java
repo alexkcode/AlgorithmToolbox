@@ -1,4 +1,4 @@
-package CourseraJavaToolbox.week1;
+package CourseraToolbox.week1;
 
 import java.util.Scanner;
 
