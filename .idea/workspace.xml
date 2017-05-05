@@ -4,11 +4,48 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02e87112-ff15-477e-afde-b094970f82f2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CourseraToolbox/MaxPairwiseProduct$FastScanner.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CourseraToolbox/MaxPairwiseProduct.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CourseraToolbox/src/CourseraJavaToolbox/week1/APlusB.java" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week1/APlusB.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CourseraToolbox/src/CourseraJavaToolbox/week1/MaxPairwiseProduct.java" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week1/MaxPairwiseProduct.java" />
+    <list default="true" id="02e87112-ff15-477e-afde-b094970f82f2" name="Default" comment="added week 2 materials">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/01_introduction_starter_files.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/hamcrest-core-1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/junit-4.12.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/fibonacci/Fibonacci.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/fibonacci/by_learners/fibonacci.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/fibonacci/fibonacci.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/fibonacci/fibonacci.hs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/fibonacci/fibonacci.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/fibonacci_huge/FibonacciHuge.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/fibonacci_huge/by_learners/fibonacci_huge.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/fibonacci_huge/fibonacci_huge.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/fibonacci_huge/fibonacci_huge.hs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/fibonacci_huge/fibonacci_huge.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/fibonacci_last_digit/FibonacciLastDigit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/fibonacci_last_digit/by_learners/fibonacci_last_digit.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/fibonacci_last_digit/fibonacci_last_digit.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/fibonacci_last_digit/fibonacci_last_digit.hs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/fibonacci_last_digit/fibonacci_last_digit.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/fibonacci_partial_sum/FibonacciPartialSum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/fibonacci_partial_sum/by_learners/fib_partial_sum.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/fibonacci_partial_sum/fibonacci_partial_sum.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/fibonacci_partial_sum/fibonacci_partial_sum.hs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/fibonacci_partial_sum/fibonacci_partial_sum.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/fibonacci_sum_last_digit/FibonacciSumLastDigit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/fibonacci_sum_last_digit/by_learners/fibonacci_sum_last_digit.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/fibonacci_sum_last_digit/fibonacci_sum_last_digit.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/fibonacci_sum_last_digit/fibonacci_sum_last_digit.hs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/fibonacci_sum_last_digit/fibonacci_sum_last_digit.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/gcd/GCD.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/gcd/by_learners/gcd.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/gcd/gcd.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/gcd/gcd.hs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/gcd/gcd.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/lcm/LCM.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/lcm/by_learners/lcm.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/lcm/lcm.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/lcm/lcm.hs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week2/lcm/lcm.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseraToolbox/src/test/CourseraToolbox/MaxPairwiseProductTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,8 +65,8 @@
       <file leaf-file-name="MaxPairwiseProduct.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week1/MaxPairwiseProduct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <marker date="1491240862958" expanded="false" signature="1493:1502" ph="&lt;~&gt;" />
@@ -139,8 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -235,6 +270,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -654,7 +691,14 @@
       <option name="project" value="LOCAL" />
       <updated>1490582122392</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refactored performance test">
+      <created>1491240883907</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1491240883907</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -696,6 +740,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -707,7 +752,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19699432" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19699432" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24979079" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -719,7 +764,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299532" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -735,7 +779,8 @@
     <MESSAGE value="implemented faster version of max pairwise product method" />
     <MESSAGE value="added performance test skeleton" />
     <MESSAGE value="refactored performance test" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored performance test" />
+    <MESSAGE value="added week 2 materials" />
+    <option name="LAST_COMMIT_MESSAGE" value="added week 2 materials" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1085,8 +1130,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CourseraToolbox/src/CourseraToolbox/week1/MaxPairwiseProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1491240862958" expanded="false" signature="1493:1502" ph="&lt;~&gt;" />
